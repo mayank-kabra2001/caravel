@@ -43,7 +43,7 @@ LARGE_FILES_GZ_SPLIT := $(addsuffix .$(ARCHIVE_EXT).00.split, $(LARGE_FILES))
 LARGE_FILES_GZ_SPLIT += $(addsuffix .00.split, $(ARCHIVES))
 
 MCW_ROOT?=$(PWD)/mgmt_core_wrapper
-MCW ?=LITEX_VEXRISCV
+MCW ?=PICO
 MPW_TAG ?= mpw-8c
 
 # PDK switch varient
