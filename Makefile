@@ -58,7 +58,7 @@ ifeq ($(MCW),LITEX_VEXRISCV)
 	MCW_TAG := $(MPW_TAG)
 else
 	MCW_NAME := mcw-pico
-	MCW_REPO := https://github.com/efabless/caravel_pico
+	MCW_REPO := https://github.com/mayank-kabra2001/caravel_pico
 	MCW_TAG := $(MPW_TAG)
 endif
 
